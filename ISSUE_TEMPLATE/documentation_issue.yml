@@ -1,0 +1,10 @@
+name: 📖 Documentation issue
+description: Report an issue with a Fyra OSS project's documentation
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true
